@@ -1,0 +1,28 @@
+.container_topo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_topo .imagemTopo {
+    width: 120px;
+    height: 40px;
+}
+
+.container_topo nav .linksTopo {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.container_topo nav .linksTopo:hover {
+    font-weight: bold;
+}
+
+.container_topo nav {
+    display: flex;
+    gap: 20px;
+};
