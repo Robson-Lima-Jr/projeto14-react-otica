@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 
 import Topo from "@/components/Topo";
+import SecaoCapa from "@/components/SecaoCapa";
+import SecaoProdutos from "@/components/SecaoProdutos";
 
 export default function Home() {
   return (
@@ -14,7 +16,25 @@ export default function Home() {
         <meta name="keywords" content="otica, vida, devmedia, react" />
         <meta name="author" content="Robson-Lima-Jr" />
       </Head>
+
       <Topo />
+
+      <main>
+        <section className={styles.banner_container}>
+          <div className={styles.container_base}>
+            <SecaoCapa />
+          </div>
+        </section>
+
+        <section className={styles.container_produtos}>
+          <div className={styles.container_base}>
+            <SecaoProdutos/>
+          </div>
+        </section>
+
+
+      </main>
+
     </div>
   );
 }
