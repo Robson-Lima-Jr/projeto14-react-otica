@@ -7,6 +7,7 @@ import SecaoCapa from "@/components/SecaoCapa";
 import SecaoProdutos from "@/components/SecaoProdutos";
 import SecaoSobre from "@/components/SecaoSobre";
 import SecaoContatos from "@/components/SecaoContatos";
+import Rodape from "@/components/Rodape";
 
 export default function Home() {
   return (
@@ -45,10 +46,9 @@ export default function Home() {
             <SecaoContatos />
           </div>
         </section>
-
-
       </main>
 
+      <Rodape />
     </div>
   );
 }
