@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.container_sobre {
+    background-color: #F6F6F6;
+}
+
 .banner_container {
     background: url(../../public/capa.png) center center no-repeat;
     background-size: cover;

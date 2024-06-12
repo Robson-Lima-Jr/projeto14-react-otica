@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
 import SecaoCapa from "@/components/SecaoCapa";
 import SecaoProdutos from "@/components/SecaoProdutos";
+import SecaoSobre from "@/components/SecaoSobre";
 
 export default function Home() {
   return (
@@ -26,9 +27,15 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.container_produtos}>
+        <section id="produtos">
           <div className={styles.container_base}>
             <SecaoProdutos/>
+          </div>
+        </section>
+
+        <section className={styles.container_sobre} id="sobre">
+          <div className={styles.container_base}>
+            <SecaoSobre />
           </div>
         </section>
 
