@@ -26,7 +26,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    flex: 1 1 340px;
 }
 
 .base_produtos .produtos {
@@ -34,6 +33,7 @@
     max-width: 480px;
     padding: 15px 0px;
     display: flex;
+    flex: 1 1 340px;
     flex-direction: column;
     gap: 20px;
     align-items: center;

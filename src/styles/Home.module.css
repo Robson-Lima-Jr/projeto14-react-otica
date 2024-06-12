@@ -21,6 +21,10 @@
     background-color: #F6F6F6;
 }
 
+.container_contato {
+    background-color: #05031B;
+}
+
 .banner_container {
     background: url(../../public/capa.png) center center no-repeat;
     background-size: cover;

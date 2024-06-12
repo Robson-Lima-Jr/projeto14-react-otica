@@ -20,17 +20,14 @@
 
 .sobre_area .sobre_box {
     display: flex;
-    flex: 1 1 350px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .sobre_area .sobre_box .imagens {
-    width: 100%;
-    max-width: 500px;
-    height: 100%;
-    max-height: 300px;
+    width: 500px;
+    height: 300px;
     border: 1px solid #C4C4C4;
 }
 
@@ -42,10 +39,8 @@
     align-items: center;
     flex-wrap: wrap;
 
-    width: 100%;
-    max-width: 500px;
-    height: 100%;
-    max-height: 300px;
+    width: 500px;
+    height: 300px;
     border: 1px solid #C4C4C4;
 }
 
