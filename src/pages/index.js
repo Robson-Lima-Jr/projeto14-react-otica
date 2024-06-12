@@ -5,6 +5,9 @@ import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
 import SecaoCapa from "@/components/SecaoCapa";
 import SecaoProdutos from "@/components/SecaoProdutos";
+import SecaoSobre from "@/components/SecaoSobre";
+import SecaoContatos from "@/components/SecaoContatos";
+import Rodape from "@/components/Rodape";
 
 export default function Home() {
   return (
@@ -26,15 +29,26 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.container_produtos}>
+        <section id="produtos">
           <div className={styles.container_base}>
-            <SecaoProdutos/>
+            <SecaoProdutos />
           </div>
         </section>
 
+        <section className={styles.container_sobre} id="sobre">
+          <div className={styles.container_base}>
+            <SecaoSobre />
+          </div>
+        </section>
 
+        <section className={styles.container_contato} id="contato">
+          <div className={styles.container_base}>
+            <SecaoContatos />
+          </div>
+        </section>
       </main>
 
+      <Rodape />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Topo() {
             <nav>
                 <Link href="#produtos" className={styles.linksTopo}>PRODUTOS</Link>
                 <Link href="#sobre" className={styles.linksTopo}>SOBRE</Link>
-                <Link href="#produtos" className={styles.linksTopo}>CONTATO</Link>
+                <Link href="#contato" className={styles.linksTopo}>CONTATO</Link>
             </nav>
         </header>
     );

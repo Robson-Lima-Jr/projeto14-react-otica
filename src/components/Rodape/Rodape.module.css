@@ -1,0 +1,24 @@
+.container_rodape {
+    background-color: black;
+}
+
+.container_base {
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+}
+
+.container_base .links_rodape {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

@@ -21,11 +21,11 @@
 }
 
 .base_produtos .area_produtos {
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    flex: 1 1 340px;
 }
 
 .base_produtos .produtos {
@@ -33,6 +33,7 @@
     max-width: 480px;
     padding: 15px 0px;
     display: flex;
+    flex: 1 1 340px;
     flex-direction: column;
     gap: 20px;
     align-items: center;
@@ -52,5 +53,5 @@
 .base_produtos .imagens {
     width: 100%;
     max-width: 340px;
-    height: 150px;
+    height: 165px;
 }
