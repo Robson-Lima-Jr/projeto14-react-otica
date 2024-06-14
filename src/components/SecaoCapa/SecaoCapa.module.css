@@ -44,6 +44,7 @@
     }
 
     .titulo_area {
+        width: 320px;
         background-color: #00000091;
         padding: 0px 10px;
     }
