@@ -28,12 +28,8 @@ export default function Home() {
 
         <SecaoSobre />
 
+        <SecaoContatos />
 
-        <section className={styles.container_contato} id="contato">
-          <div className={styles.container_base}>
-            <SecaoContatos />
-          </div>
-        </section>
       </main>
 
       <Rodape />

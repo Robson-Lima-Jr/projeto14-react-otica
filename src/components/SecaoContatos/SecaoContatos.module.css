@@ -1,3 +1,19 @@
+.container_base {
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fundo_contato {
+    background-color: #05031B;
+}
+
 .contato_area {
     display: flex;
     flex-direction: column;
@@ -48,7 +64,7 @@
     padding: 5px 0px 10px;
 }
 
-.contato_descricao div .icones_contato {
+.icones_contato {
     width: 25px;
     height: 25px;
 }
