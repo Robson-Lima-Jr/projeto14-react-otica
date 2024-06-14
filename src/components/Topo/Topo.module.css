@@ -1,4 +1,4 @@
-.container_topo{
+.container_topo {
     width: 100%;
     max-width: 1024px;
     margin: 0px auto;
@@ -8,21 +8,38 @@
     align-items: center;
 }
 
-.container_topo .imagemTopo {
-    width: 120px;
+.imagemTopo {
+    width: 130px;
     height: 40px;
 }
 
-.container_topo nav .linksTopo {
+.linksTopo {
     text-decoration: none;
     color: #4a4a4a;
 }
 
-.container_topo nav .linksTopo:hover {
-    font-weight: bold;
+.linksTopo:hover {
+    color: #000000;
 }
 
-.container_topo nav {
+.nav_area {
     display: flex;
     gap: 20px;
-};
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+    .container_topo {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+
+    .nav_area {
+        width: 100%;
+        border-top: 1px solid #4a4a4a;;
+        padding-top: 12px;
+        justify-content: space-around;
+    }
+}

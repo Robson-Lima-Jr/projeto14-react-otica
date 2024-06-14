@@ -15,10 +15,15 @@
     gap: 10px;
 
     color: white;
+    text-align: center;
+    line-height: 25px;
 }
 
-.container_base .links_rodape {
+.links_rodape {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    padding: 3px 7px;
+    border-radius: 10px;
     font-weight: bold;
 }

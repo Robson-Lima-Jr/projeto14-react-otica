@@ -1,3 +1,19 @@
+.container_base {
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fundo_contato {
+    background-color: #05031B;
+}
+
 .contato_area {
     display: flex;
     flex-direction: column;
@@ -33,7 +49,12 @@
 .contato_box > div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
+
+    padding: 10px;
+    border: 1px solid white;
 }
 
 .contato_descricao {
@@ -48,7 +69,17 @@
     padding: 5px 0px 10px;
 }
 
-.contato_descricao div .icones_contato {
+.icones_contato {
     width: 25px;
     height: 25px;
+}
+
+@media screen and (max-width: 375px) {
+    .contato_area h3 {
+        font-size: 25px;
+    }
+
+    .contato_area p {
+        font-size: 16px;
+    }
 }

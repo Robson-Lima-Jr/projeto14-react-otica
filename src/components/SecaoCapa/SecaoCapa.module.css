@@ -1,18 +1,68 @@
-.container_capa {
+.container_base {
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_container {
+    background: url(../../../public/capa.png) center center no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 90vh;
+};
+
+.titulo_area {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     text-transform: uppercase;
 }
 
-.container_capa h1 {
+.titulo_area h1 {
     max-width: 70%;
     font-size: 40px;
     color: white;
 }
 
-.container_capa p {
+.titulo_area p {
+    padding: 10px 0px;
     font-size: 30px;
     color:#C4C4C4;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 375px) {
+    .banner_container {
+        height: 75vh;
+    }
+
+    .titulo_area {
+        background-color: #00000091;
+        padding: 0px 10px;
+    }
+
+    .titulo_area h1 {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .banner_container {
+        background-position: right;
+
+        height: 75vh;
+    }
+
+    .titulo_area {
+        width: 400px;
+        padding: 0px 15px;
+        background-color: #00000091;
+    }
 }
