@@ -1,4 +1,4 @@
-.container_topo{
+.container_topo {
     width: 100%;
     max-width: 1024px;
     margin: 0px auto;
@@ -8,21 +8,27 @@
     align-items: center;
 }
 
-.container_topo .imagemTopo {
+.imagemTopo {
     width: 120px;
     height: 40px;
 }
 
-.container_topo nav .linksTopo {
+.linksTopo {
     text-decoration: none;
     color: #4a4a4a;
 }
 
-.container_topo nav .linksTopo:hover {
-    font-weight: bold;
+.linksTopo:hover {
+    color: #000000;
 }
 
-.container_topo nav {
+.nav_area {
     display: flex;
     gap: 20px;
-};
+}
+
+@media screen and (max-width: 375px) {
+    .container_topo {
+        background-color: gold;
+    }
+}

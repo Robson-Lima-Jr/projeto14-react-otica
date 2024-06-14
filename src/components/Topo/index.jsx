@@ -9,7 +9,7 @@ export default function Topo() {
         <header className={styles.container_topo}>
             <Image src={Logo} alt="logo" className={styles.imagemTopo}></Image>
 
-            <nav>
+            <nav className={styles.nav_area}>
                 <Link href="#produtos" className={styles.linksTopo}>PRODUTOS</Link>
                 <Link href="#sobre" className={styles.linksTopo}>SOBRE</Link>
                 <Link href="#contato" className={styles.linksTopo}>CONTATO</Link>

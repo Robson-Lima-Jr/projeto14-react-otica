@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 
 import Topo from "@/components/Topo";
@@ -23,11 +22,7 @@ export default function Home() {
       <Topo />
 
       <main>
-        <section className={styles.banner_container}>
-          <div className={styles.container_base}>
-            <SecaoCapa />
-          </div>
-        </section>
+        <SecaoCapa />
 
         <section id="produtos">
           <div className={styles.container_base}>

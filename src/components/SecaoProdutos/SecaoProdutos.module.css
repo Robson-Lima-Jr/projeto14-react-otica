@@ -38,6 +38,8 @@
     gap: 20px;
     align-items: center;
     background-color: #F6F6F6;
+
+    box-shadow: 2px 2px 15px -3px rgba(0, 0, 0, 0.883);
 }
 
 .base_produtos .produtos h4 {
