@@ -29,7 +29,6 @@ export default function Home() {
         <SecaoSobre />
 
         <SecaoContatos />
-
       </main>
 
       <Rodape />
