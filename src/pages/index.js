@@ -24,17 +24,10 @@ export default function Home() {
       <main>
         <SecaoCapa />
 
-        <section id="produtos">
-          <div className={styles.container_base}>
-            <SecaoProdutos />
-          </div>
-        </section>
+        <SecaoProdutos />
 
-        <section className={styles.container_sobre} id="sobre">
-          <div className={styles.container_base}>
-            <SecaoSobre />
-          </div>
-        </section>
+        <SecaoSobre />
+
 
         <section className={styles.container_contato} id="contato">
           <div className={styles.container_base}>
