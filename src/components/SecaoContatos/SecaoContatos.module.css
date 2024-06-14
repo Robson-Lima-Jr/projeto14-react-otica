@@ -49,7 +49,12 @@
 .contato_box > div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
+
+    padding: 10px;
+    border: 1px solid white;
 }
 
 .contato_descricao {
@@ -67,4 +72,14 @@
 .icones_contato {
     width: 25px;
     height: 25px;
+}
+
+@media screen and (max-width: 375px) {
+    .contato_area h3 {
+        font-size: 25px;
+    }
+
+    .contato_area p {
+        font-size: 16px;
+    }
 }
