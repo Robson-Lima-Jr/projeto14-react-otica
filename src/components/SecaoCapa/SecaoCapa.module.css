@@ -21,7 +21,6 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     text-transform: uppercase;
 }
 
@@ -32,6 +31,36 @@
 }
 
 .titulo_area p {
+    padding: 10px 0px;
     font-size: 30px;
     color:#C4C4C4;
+}
+
+@media screen and (max-width: 375px) {
+    .banner_container {
+        height: 75vh;
+    }
+
+    .titulo_area {
+        background-color: #00000091;
+        padding: 0px 10px;
+    }
+
+    .titulo_area h1 {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .banner_container {
+        background-position: right;
+
+        height: 75vh;
+    }
+
+    .titulo_area {
+        width: 400px;
+        padding: 0px 15px;
+        background-color: #00000091;
+    }
 }
