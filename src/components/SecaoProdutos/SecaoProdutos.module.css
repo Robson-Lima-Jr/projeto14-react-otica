@@ -64,6 +64,29 @@
 }
 .imagens {
     width: 100%;
-    max-width: 340px;
-    height: 165px;
+    max-width: 350px;
+    height: 150px;
+}
+
+/* Media-Query */
+
+@media screen and (max-width: 375px) {
+    .base_produtos h3 {
+        font-size: 25px;
+    }
+
+    .base_produtos p, .base_produtos li {
+        font-size: 16px;
+    }
+
+    .imagens {
+        max-width: 270px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .produtos {
+        max-width: 100%;
+    }
 }

@@ -36,6 +36,8 @@
     color:#C4C4C4;
 }
 
+/* Media Query */
+
 @media screen and (max-width: 375px) {
     .banner_container {
         height: 75vh;
