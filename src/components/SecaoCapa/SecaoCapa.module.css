@@ -18,7 +18,7 @@
 };
 
 .titulo_area {
-    width: 50%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
