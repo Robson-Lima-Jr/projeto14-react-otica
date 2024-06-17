@@ -44,13 +44,18 @@
     }
 
     .titulo_area {
-        width: 320px;
+        width: 290px;
         background-color: #00000091;
         padding: 0px 10px;
     }
 
     .titulo_area h1 {
-        max-width: 80%;
+        max-width: 90%;
+        font-size: 35px;
+    }
+
+    .titulo_area p {
+        font-size: 27px;
     }
 }
 
